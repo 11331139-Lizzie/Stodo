@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StodoActivity!</string>
+    <string name="app_name">Stodo</string>
+    <string name="add">+</string>
+    <string name="taskname">任务名称:</string>
+    <string name="deadline">Deadline:</string>
+    <string name="cost_time">所需时长:</string>
+    <string name="priority">重要程度:</string>
+    
+    <string name="name_hint">完成毕业论文</string>
+    <string name="deadline_hint">以XXXX.XX.XX的格式输入</string>
+    <string name="costtime_hint">以小时为单位</string>
+    <string name="priority_hint">1 to 5</string>
+    
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="reset">重置</string>
+    <string name="delete">删除</string>
+    
+    <string name="setting">设置</string>
+    <string name="limit">每天学习时长:</string>
+    <string name="limit_hint">以小时为单位</string>
+    
+    <string name="date">日期</string>
+    <string name="small_task">小计划数</string>
+
+</resources>

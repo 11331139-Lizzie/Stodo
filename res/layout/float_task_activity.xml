@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 IdeasAndroid
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#ffefd5"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/taskname"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/task_name_detail"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:scrollHorizontally="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/deadline"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/deadline_detail"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890."
+            android:hint="@string/deadline_hint"
+            android:scrollHorizontally="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/cost_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/cost_time"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/cost_time_detail"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890."
+            android:hint="@string/costtime_hint"
+            android:scrollHorizontally="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/priority"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/priority_detail"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:digits="1234567890."
+            android:hint="@string/priority_hint"
+            android:scrollHorizontally="true"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:id="@+id/sure_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sure" 
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" 
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reset" 
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+</LinearLayout>
